@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Goods page{% endblock %}
+{% block content %}
+<h1>🛍The shop🛍</h1></br>
+    {% for good in goods %}
+        </br><h2>{{ good.description }}</h2>
+        <h3>{{ good.price }}</h3>
+        <h3>{{ good.category }}</h3>
+        <p>
+            <a href='{% url "good_view" good.pk%}'>Show the good🍇</a>
+            <a href='{% url "good_update" good.pk%}'>Edit the good🌶</a>
+            <a href='{% url "good_delete" good.pk%}'>Delete the good🧄</a>
+        </p>
+    {% endfor %}
+{% endblock %}
