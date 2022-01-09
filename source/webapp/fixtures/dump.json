@@ -1,0 +1,46 @@
+[
+{
+    "model": "webapp.good",
+    "pk": 1,
+    "fields": {
+        "description": "fvefvd",
+        "detailed_description": "fvdfbsdfb",
+        "category": "other",
+        "remainder": 5,
+        "price": "0.05"
+    }
+},
+{
+    "model": "webapp.good",
+    "pk": 2,
+    "fields": {
+        "description": "fdvd",
+        "detailed_description": "fbsdfbfd",
+        "category": "other",
+        "remainder": 1,
+        "price": "0.03"
+    }
+},
+{
+    "model": "webapp.good",
+    "pk": 3,
+    "fields": {
+        "description": "fdvbdfs",
+        "detailed_description": "bdsfbsdfb",
+        "category": "other",
+        "remainder": 0,
+        "price": "0.04"
+    }
+},
+{
+    "model": "webapp.good",
+    "pk": 4,
+    "fields": {
+        "description": "dfsbsdfb",
+        "detailed_description": "adfbbsdf",
+        "category": "other",
+        "remainder": 2,
+        "price": "0.32"
+    }
+}
+]
